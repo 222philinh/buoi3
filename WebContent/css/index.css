@@ -1,0 +1,61 @@
+
+#header {
+	background-color:red;
+	pading:70px;
+	text-align:center;
+	font-size:50px;
+	font-family:cursive;
+}
+#header::after {
+	clear: both;
+	content:'';
+	display:block;
+}
+#leftpanel {
+background-color:blue;
+font-size:50px;
+font-family:monospace;
+width:50%;
+}
+#content {
+	background-color:yellow;
+	font-size:50px;
+	font-family:cursive;
+	width:80%;
+	
+}
+#rightpanel {
+	background-color:pink;
+	font-size:50px;
+	font-family:monospace;
+	width:50%;
+}
+#footer {
+	background-color:grey;
+	font-size:50px;
+	font-family:monospace;
+	width:50%;
+}
+#footer::before {
+	clear: both;
+	content:'';
+	display:block;
+}
+
+
+
+
+
+#header ul{
+	list-style-type: none;
+}
+#header ul li{
+	float: left;
+}
+
+.menu li {
+	border-right: 2px solid pink;
+	padding-right:100px;
+	padding-left:100px;
+	
+}
